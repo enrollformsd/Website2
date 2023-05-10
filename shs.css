@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    max-width: 500;
+    background: url(SENIOR.jpg);
+    background-position: auto;
+    background-size: cover;
+    height: 655px;
+    position: relative;
+    top: -18px;
+    image-resolution: 100;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .main{
+        width: 1000px;
+        background: url(SENIOR.jpg);
+        background-position: auto;
+        background-size: cover;
+        height: 480px;
+        position: relative;
+        top: -18px;
+        image-resolution: 100;
+    }
+}
